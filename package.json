@@ -1,0 +1,16 @@
+{
+  "name": "group-buy",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace=web",
+    "dev:api": "npm run start:dev --workspace=api",
+    "build:web": "npm run build --workspace=web",
+    "build:api": "npm run build --workspace=api",
+    "lint:web": "npm run lint --workspace=web",
+    "lint:api": "npm run lint --workspace=api"
+  }
+}
